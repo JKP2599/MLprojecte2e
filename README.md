@@ -18,23 +18,11 @@ Welcome to the Modular End-to-End ML Project Pipeline! This GitHub project aims 
 
 To showcase the capabilities of our pipeline, we have utilized the "Student Performance" dataset to predict math exam performance. Our data analysis revealed fascinating insights, uncovering the impact of factors like gender, parental education level, lunch type, and race/ethnicity on student outcomes.
 
-<p align="center">
-  <img src="notebook/Graphs/by_gender.jpg" alt="Distribution by Gender" width="400">
-  <img src="notebook/graphs/by_lunch.jpg" alt="Distribution by Lunch Type" width="400">
-</p>
+![Distribution by gender](notebook/Graphs/by_gender.jpg) ![Distribution by lunch](notebook/Graphs/by_lunch.jpg) 
+![Distribution by parental education](notebook/Graphs/by_parental_education.jpg) ![Distribution by race ethnicity](notebook/Graphs/by_race_ethnicity.jpg) 
 
-<p align="center">
-  <img src="notebook/graphs/by_parental_education.jpg" alt="Distribution by Parental Education Level" width="400">
-  <img src="notebook/graphs/by_race_ethnicity.jpg" alt="Distribution by Race/Ethnicity" width="400">
-</p>
-
-<p align="center">
-  <img src="notebook/graphs/distribution_across_categories.jpg" alt="Population Distribution across Categories" width="400">
-</p>
-
-<p align="center">
-<img src="notebook/graphs/score_distribution.jpg" alt="Score Distribution" width="1000">
-</p>
+![Score Distribution](notebook/Graphs/score_distribution.jpg) 
+![Population Distribution across categories](notebook/Graphs/distribution_across_categories.jpg)
 
 By comparing various regression models, including Decision Trees, Random Forest, and XGBoost, we identified the best-performing model based on key metrics such as RMSE, MAE, and R2. This ensures that your predictions are accurate and reliable, giving you the confidence to make informed decisions.
 
